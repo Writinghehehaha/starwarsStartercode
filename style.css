@@ -19,24 +19,45 @@ img {
 p{
   display: flex;
   justify-content: center;
+  color:antiquewhite;
 }
-
+a:link{
+    color:rgb(255, 215, 0);
+    font-size: 30px;
+    padding: 3px;
+}
+a:visited{
+    color:rgb(255, 215, 0);
+    font-size: 30px;
+    padding: 3px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+}
+a:hover{
+    color:rgb(235, 255, 148);
+    font-size: 30px;
+    padding: 3px;
+}
 
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
-
+.lego{
+  display: flex;
+  justify-content: center;
+}
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #0e1c33;
 }
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
+  color:aliceblue;
 }
 
 
