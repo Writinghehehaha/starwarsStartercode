@@ -2,7 +2,7 @@
 
 img {
   align-self: center;
-  width:5%
+  width:5%;
 }
 .top{
   display: flex;
@@ -13,6 +13,10 @@ img {
   justify-content: center;
 }
 .bottom{
+  display: flex;
+  justify-content: center;
+}
+p{
   display: flex;
   justify-content: center;
 }
