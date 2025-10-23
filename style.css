@@ -52,7 +52,10 @@ a:hover{
 body {
   background-color: #0e1c33;
 }
-
+.button{
+  display:flex;
+  justify-content: center;
+}
 
 h1 {
   font-family: "SF Distant Galaxy";
